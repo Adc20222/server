@@ -28,6 +28,7 @@ const Article = mongoose.model('Data', {
     heading: String,
     p: String,
     image: String,
+  category: String,
     // Add more fields as needed
   });
 // Create a model for the "Data" collection based on the schema
